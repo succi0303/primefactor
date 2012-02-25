@@ -10,9 +10,9 @@ add_custom_image_header('','admin_header_style');
 function admin_header_style() {}
 
 define('NO_HEADER_TEXT',true);
-define('HEADER_IMAGE','%s/header_red.jpg');
+define('HEADER_IMAGE','%s/header_green.jpg');
 define('HEADER_IMAGE_WIDTH',900);
-define('HEADER_IMAGE_HEIGHT',228);
+define('HEADER_IMAGE_HEIGHT',96);
 
 // ウィジェット
 register_sidebar();
