@@ -138,6 +138,7 @@ div.post p.postcat a {
 	padding: 1px 5px;
 }
 div.post p.postinfo {
+	font-size: small;
 	color: #0c8bcd;
 	text-align: right;
 	margin: 0;
