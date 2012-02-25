@@ -14,7 +14,9 @@
 <div id="header">
 <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
 <p id="desc"><?php bloginfo('description'); ?></p>
-
+<div id="cat">
+<img src="<?php bloginfo('template_url'); ?>/cat_icon.png" alt="*" width="75" height="75" />
+</div>
 <div id="subinfo">
 <a href="<?php bloginfo('rss2_rul'); ?>"><img src="<?php bloginfo('template_url'); ?>/feed.png" alt="RSS FEED" width="28" height="28" /></a>
 </div>

@@ -42,9 +42,13 @@ div#header p#desc {
 	color: #999999;
 	margin: 0 0 5px;
 }
+div#cat {
+	text-align: right;
+	margin: -62px 24px -10px;
+}
 div#subinfo {
 	text-align: right;
-	margin: -32px 0 5px;
+	margin: -45px 0 5px;
 }
 
 /* ナビゲーションバー */
@@ -53,7 +57,7 @@ div#nav {
 	height: 30px;
 	background-color: #ffffff;
 	border: solid 1px #aaaaaa;
-	margin-bottom: 8px;
+	margin-bottom: 0;
 }
 div#nav ul {
 	margin: 0;
