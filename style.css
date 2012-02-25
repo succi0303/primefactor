@@ -257,16 +257,6 @@ div.flickrphoto small a img {
 	display: none;
 }
 
-/* 天気と気温 */
-p.tenki {
-	width: 50px;
-	float: left;
-	text-align: center;
-	border: solid 1px #f3b62f;
-	padding: 5px;
-	margin-right: 10px;
-	margin-bottom: 10px;
-}
 
 /* 関連記事 */
 div.related {
