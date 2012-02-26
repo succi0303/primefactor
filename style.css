@@ -86,12 +86,12 @@ div#content {
 }
 p.title {
 	font-size: 0.875em;
-	color: #585858;
+	color: #ffffff;
 	width: 510px;
 	border-radius: 3px;
 	margin: 0 0 10px;
 	padding: 0 30px 0 10px;
-	background-color: #f7e29e;
+	background-color: #000000;
 }
 p.pagenation {
 	font-size: 0.75em;
