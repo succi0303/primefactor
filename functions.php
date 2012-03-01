@@ -35,8 +35,14 @@ add_editor_style();
 // ギャラリーのスタイルシートの出力を停止する
 add_filter('use_default_gallery_style','__return_false');
 
-// アイキャッチ画像
+// アイキャッチ画像を有効にする
 add_theme_support('post-thumbnails');
 set_post_thumbnail_size(550,400,true);
+
+// 概要(抜粋)の省略記号を変更する
+function my_excerpt_more($more) {
+	return '…';
+}
+add_filter('excerpt_more', 'my_excerpt_more');
 
 ?>

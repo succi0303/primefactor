@@ -365,3 +365,9 @@ div#breadcrumb div {
 	padding-top: 10px;
 	font-size: smaller;
 }
+
+/* サムネイル画像 */
+div.post p.thumb {
+	float: left;
+	margin: 0 10px 10px 0;
+}
