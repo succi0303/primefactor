@@ -345,3 +345,15 @@ div.post p.more a {
 div.post p.more a:hover {
 	background: #f7e29e;
 }
+
+/* パンくずリスト */
+.single div#header, .archive div#header {
+	margin-bottom: 5px;
+}
+div#breadcrumb {
+	margin-bottom: 5px;
+}
+div#breadcrumb div {
+	display: inline;
+	font-size: 0.75em;
+}
