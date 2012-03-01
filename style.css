@@ -371,3 +371,26 @@ div.post p.thumb {
 	float: left;
 	margin: 0 10px 10px 0;
 }
+
+/* お問い合わせフォーム */
+.wpcf7-form {
+	background-color: #c4f254;
+	padding: 20px;
+	border-radius: 20px;
+}
+.wpcf7-form span.req {
+	color: #aa0000;
+	font-size: smaller;
+}
+.wpcf7-form input {
+	width: 80%;
+}
+.wpcf7-form textarea {
+	width: 100%;
+}
+.wpcf7-form p.submit {
+	text-align: center;
+}
+.wpcf7-form .wpcf7-submit {
+	width: 200px;
+}
