@@ -309,3 +309,25 @@ div related ol {
 .attachment p.photo {
 	text-align: center;
 }
+
+/* タイトルの一覧 */
+ul.post {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border-top: dotted 1px #aaaaaa;
+}
+ul.post li {
+	border-bottom: dotted 1px #aaaaaa;
+	background-image: url(chip.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding: 15px 0 15px 20px;
+}
+ul.post li a {
+	color: #000000;
+}
+ul.post li span {
+	font-size: smaller;
+	color: #888888;
+}
