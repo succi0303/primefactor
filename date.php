@@ -6,6 +6,7 @@
 <p class="title"><?php single_month_title(); ?></p>
 
 <ul class="post">
+<?php query_posts('posts_per_page=-1'); ?>
 <?php if(have_posts()): while(have_posts()):
 the_post(); ?>
 <?php get_template_part('content','title'); ?>
