@@ -331,3 +331,17 @@ ul.post li span {
 	font-size: smaller;
 	color: #888888;
 }
+
+/* 続きを読む */
+div.post p.more {
+	margin: 0;
+	font-size: 0.625em;
+}
+div.post p.more a {
+	border: solid 1px #aaaaaa;
+	color: #333333;
+	padding: 3px;
+}
+div.post p.more a:hover {
+	background: #f7e29e;
+}
