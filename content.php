@@ -6,5 +6,10 @@
 
 <?php the_content(); ?>
 
-<p class="postinfo"><?php echo get_the_date(); ?></p>
+<p class="postinfo">
+<?php if(has_tag()): ?>
+<?php the_tags('','・'); ?> |
+<?php endif; ?>
+<?php echo get_the_date(); ?>
+</p>
 </div>
