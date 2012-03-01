@@ -6,5 +6,11 @@
 
 <p class="more"><a href="<?php the_permalink(); ?>">続きを読む</a></p>
 
-<p class="postinfo"><?php echo get_the_date(); ?></p>
+<p class="postinfo">
+<?php if(has_tag()): ?>
+<?php the_tags('','・'); ?> |
+<?php endif; ?>
+<?php echo get_the_date(); ?>
+</p>
+
 </div>
