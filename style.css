@@ -357,3 +357,11 @@ div#breadcrumb div {
 	display: inline;
 	font-size: 0.75em;
 }
+
+/* コメントフォーム */
+#disqus_thread {
+	border-top: solid 1px #aaaaaa;
+	margin-top: 30px;
+	padding-top: 10px;
+	font-size: smaller;
+}
