@@ -10,6 +10,7 @@ Version: 1.0
 /* 基本 */
 body {
 	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+	color: #333333;
 }
 a {
 	text-decoration: none;
@@ -35,7 +36,7 @@ div#header h1 {
 	margin: 0;
 }
 div#header h1 a {
-	color: #000000;
+	color: #333333;
 }
 div#header p#desc {
 	font-size: 0.75em;
@@ -72,11 +73,12 @@ div#nav li a {
 	width: 150px;
 	line-height: 30px;
 	border-right: solid 1px #aaaaaa;
-	color: #000000;
+	color: #333333;
 	text-align: center;
 }
 div#nav li a:hover {
-	background-color: #c4f254;
+	color: #ffffff;
+	background-color: #ea2f7e;
 }
 
 /* コンテンツ */
@@ -91,7 +93,7 @@ p.title {
 	border-radius: 3px;
 	margin: 0 0 10px;
 	padding: 0 30px 0 10px;
-	background-color: #000000;
+	background-color: #333333;
 }
 p.pagenation {
 	font-size: 0.75em;
@@ -115,12 +117,21 @@ div.post h2 {
 	background-position: left center;
 	border-top: solid 1px #aaaaaa;
 	border-bottom: solid 1px #aaaaaa;
+	border-radius: 3px;
 	font-size: 1em;
 	padding: 10px 18px;
 	margin: 0;
 }
 div.post h2 a {
-	color: #000000;
+	color: #333333;
+}
+div.post h3 {
+	color: #333333;
+	font-size: 1em;
+	border-bottom: solid 1px #EA2F7E;
+	border-left: solid 5px #EA2F7E;
+	padding-left: 10px;
+	margin: 0;
 }
 div.post p {
 	font-size: 1em;
@@ -135,7 +146,7 @@ div.post p.postcat a {
 	background-color: #a7d043;
 	border-radius: 2px;
 	color: #ffffff;
-	padding: 1px 5px;
+	padding: 5px;
 }
 div.post p.postinfo {
 	font-size: small;
@@ -203,12 +214,12 @@ div#sidebar li li {
 	margin: 0;
 }
 div#sidebar li li a{
-	color: #000000;
+	color: #333333;
 	display: block;;
 	padding: 5px 10px;
 }
 div#sidebar li li a:hover {
-	background-color: #f7e29e;
+	background-color: #c4f254;
 }
 
 /* フッター */
@@ -325,7 +336,7 @@ ul.post li {
 	padding: 15px 0 15px 20px;
 }
 ul.post li a {
-	color: #000000;
+	color: #333333;
 }
 ul.post li span {
 	font-size: smaller;
