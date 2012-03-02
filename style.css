@@ -357,15 +357,17 @@ ul.post li span {
 /* 続きを読む */
 div.post p.more {
 	margin: 0;
-	font-size: 0.625em;
+	font-size: 0.825em;
 }
 div.post p.more a {
-	border: solid 1px #aaaaaa;
-	color: #333333;
-	padding: 3px;
+	background-color: #aaaaaa;
+	border-radius: 2px;
+	color: #ffffff;
+	padding: 4px;
 }
 div.post p.more a:hover {
-	background: #f7e29e;
+	color: #ffffff;
+	background: #ea2f7e;
 }
 
 /* パンくずリスト */
