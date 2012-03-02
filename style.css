@@ -125,6 +125,9 @@ div.post h2 {
 div.post h2 a {
 	color: #333333;
 }
+div.post h2 a:hover {
+	color: #ea2f7e;
+}
 div.post h3 {
 	color: #333333;
 	font-size: 1em;
