@@ -2,8 +2,6 @@
 <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 <p class="postcat"><?php the_category(' '); ?></p>
 
-<?php the_post_thumbnail(); ?>
-
 <?php the_content(); ?>
 
 <?php wp_link_pages('before=<p id ="postpage">&after=</p>&pagelink=<span>%</span>'); ?>
