@@ -283,30 +283,6 @@ div.flickrphoto small a img {
 	display: none;
 }
 
-
-/* 関連記事 */
-div.related {
-	font-size: smaller;
-	border: solid 1px #aaaaaa;
-	border-radius: 3px;
-	margin-top: 20px;
-}
-div.related p {
-	color: #ffffff;
-	background-color: #aaaaaa;
-	margin: 0;
-	padding-left: 10px;
-}
-div.related ol {
-	color: #333333;
-}
-div.related ol li a {
-	color: #333333;
-}
-div.related ol li a:hover {
-	color: #ea2f7e;
-}
-
 /* 分割した記事へのリンク */
 #postpage {
 	text-align: center;
