@@ -5,6 +5,8 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 <meta charset="<?php bloginfo('charset'); ?>" />
 <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_rul'); ?>" />
+
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
