@@ -13,6 +13,20 @@
 <?php echo get_the_date(); ?>
 </p>
 
+<div class="adsense">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3774269786525137";
+/* PF-本文末尾336x280 */
+google_ad_slot = "6160813823";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
 <?php if(function_exists('related_posts')): ?>
 <?php related_posts(); ?>
 <?php endif; ?>
