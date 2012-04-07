@@ -13,7 +13,7 @@
 <?php echo get_the_date(); ?>
 </p>
 
-<div class="adsense">
+<div class="ad_under_post">
 <script type="text/javascript"><!--
 google_ad_client = "ca-pub-3774269786525137";
 /* PF-本文末尾336x280 */
