@@ -442,6 +442,11 @@ p.pagenum a, p.pagenum span {
     color: #ffffff;
 }
 
+/* 記事タイトル下の広告 */
+div ad_under_the_title {
+    text-align: center;
+}
+
 /* 記事末尾の広告 */
 div.ad_under_post {
     text-align: center;
