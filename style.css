@@ -143,13 +143,7 @@ div.post p {
 	font-size: 0.875em;
 	line-height: 1.6;
 }
-div.post ul {
-    font-size: 0.875em;
-}
-div.post ol {
-    font-size: 0.875em;
-}
-div.post dl {
+div.post li {
     font-size: 0.875em;
 }
 div.post p.postcat {
