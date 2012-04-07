@@ -223,12 +223,12 @@ div#sidebar li li {
 	margin: 0;
 }
 div#sidebar li li a{
-	color: #333333;
+	color: #0c8bcd;
 	display: block;;
 	padding: 5px 10px;
 }
 div#sidebar li li a:hover {
-	background-color: #c4f254;
+    color: #ea2f7e;
 }
 
 /* フッター */
