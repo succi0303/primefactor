@@ -153,9 +153,15 @@ div.post p.postcat a {
 }
 div.post p.postinfo {
 	font-size: small;
-	color: #0c8bcd;
+	color: #333333;
 	text-align: right;
 	margin: 0;
+}
+div.post p.postinfo a {
+    color: #0c8bcd;
+}
+div.post p.postinfo a:hover {
+    color: #ea2f7e;
 }
 
 /* 記事の個別ページ */
