@@ -418,3 +418,17 @@ div.post p.thumb {
 .wpcf7-form .wpcf7-submit {
 	width: 200px;
 }
+/* ページ番号リンク */
+p.pagenum {
+    text-align: center;
+}
+p.pagenum a {
+    background-color: #78982b;
+}
+p.pagenum span {
+    background-color: #a7d043;
+}
+p.pagenum a, p.pagenum span {
+    padding: 3px 6px;
+    color: #ffffff;
+}
