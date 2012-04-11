@@ -428,7 +428,7 @@ div ad_under_the_title {
 
 /* 記事末尾の広告 */
 div.ad_under_post {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
