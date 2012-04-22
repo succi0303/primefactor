@@ -422,8 +422,8 @@ p.pagenum a, p.pagenum span {
 }
 
 /* 記事タイトル下の広告 */
-div ad_under_the_title {
-    text-align: center;
+div.ad_under_the_title {
+    text-align: left;
 }
 
 /* 記事末尾の広告 */
